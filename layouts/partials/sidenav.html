@@ -1,0 +1,14 @@
+<aside id="sidenav">
+  <nav>
+    <a class="link" href="/about">About</a>
+    <a class="link" href="/blog">Blog</a>
+  </nav>
+  <i>Projects</i>
+  <nav>
+    {{ range where .Site.Pages "Params.type" "project" }}
+    <a class="link" href="{{.Permalink}}" aria-label="Read more about {{.Title}}">
+      {{ .Title }}
+    </a>
+    {{ end }}
+  </nav>
+</aside>

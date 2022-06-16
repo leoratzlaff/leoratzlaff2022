@@ -1,0 +1,27 @@
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37844172-8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-37844172-8');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ range .Site.Params.custom_css -}}
+  <!---->
+  <link rel="stylesheet" type="text/css" href="{{ . | absURL }}?{{ now }};" />
+  <!---->
+  {{- end }}
+  <link rel="shortcut icon" type="image/x-icon" href="/img/profile.png" />
+  <title>{{.Title}}</title>
+  {{ if isset .Params "cover" }}
+  <meta property="og:image" content="{{.Permalink}}{{.Params.cover}}" />
+  {{ end }} {{ if isset .Params "description" }}
+  <meta name="description" content="{{.Params.description}}" />
+  {{ else }}
+  <meta name="description" content="{{.Site.Params.description}}" />
+  {{ end }}
+  <meta name="keywords" content="{{.Site.Params.keywords}}" />
+</head>

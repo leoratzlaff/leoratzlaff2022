@@ -1,0 +1,14 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Leo Ratzlaff'
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[permalinks]
+blog = "/blog/:year/:title/"
+
+[params]
+    description = "Designer, web developer & technology enthusiast."
+    keywords = "Leonardo,Leo,Ratzlaff,Product,Designer,Typography,Pomodoro"
+    custom_css = ["css/style.css"]
+    email = "leoratzlaff@gmail.com"
+    social_media = "leoratzlaff"

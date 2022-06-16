@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{{partial "head.html" .}}
+
+<body>
+    {{partial "header.html" .}}
+    <div class="wrapper">
+      
+      {{partial "sidenav.html" .}}
+
+      <main>
+        {{ range first 1 (where .Site.Pages "Params.type" "project") }}
+            <h1>{{ .Title }}</h1>
+            {{ .Content }}
+        {{ end }}
+      </main>
+
+    </div>
+    {{partial "footer.html" .}}
+</body>
+</html>

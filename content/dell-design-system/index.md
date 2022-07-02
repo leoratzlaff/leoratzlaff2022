@@ -1,13 +1,8 @@
 ---
 title: "Dell Design System"
-title_ce: 4
-date: 2021-11-13
+date: 2022-11-13
 type: "project"
-classes: ["wide", "left"]
-tags: ["ux"]
-description: "Foundations, components, and community."
-cover: "cover.png"
-highlight: 1
+draft: true
 ---
 
 I joined Dell as a product designer In January of 2021 to help create the new [Dell Design System](http://delldesignsystem.com/)—a subject I am immensely interested in and passionate about.

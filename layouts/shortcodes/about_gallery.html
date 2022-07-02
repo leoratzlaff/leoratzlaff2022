@@ -1,0 +1,9 @@
+<ul class="about__photography-gallery">
+    {{ range first 4 .Site.Data.photography }}
+    <li>
+        <a href="/photography/" aria-label="See all pictures">
+            <img src="./../photography/{{.image}}" alt="Photography" />
+        </a>
+    </li>
+    {{end}}
+</ul>

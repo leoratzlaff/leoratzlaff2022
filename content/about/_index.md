@@ -1,6 +1,5 @@
 ---
-title: "Designer, indie hacker & technology enthusiast."
-description: "If you want to know more about me, this is a nice place to start."
+title: "About"
 ---
 
 ## Design
@@ -25,3 +24,4 @@ At some point, I started the realized how much I enjoyed typography, and studyin
 
 Not my most frequent hobby but something that I have no intention to stop exploring, photography is something easy to fall in love with. I use it to keep memories of [places I've been and people I've met](/photography/).
 
+{{< about_gallery >}}

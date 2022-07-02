@@ -1,8 +1,9 @@
 <header>
-  <a class="link" href="/">Leo Ratzlaff</a>
+  <a class="link  {{ if .IsHome }}active{{end}}" href="/">Leo Ratzlaff</a>
   <nav>
     <a class="menu" href="#" id="menu_btn" onclick="toggleMenu()">Menu</a>
-    <a class="link" href="/about">About</a>
-    <a class="link" href="/blog">Blog</a>
+    {{ $currentPage := . }}
+    <a class="link {{ if eq $currentPage.Title "About" }}active{{end}}" href="/about">About</a>
+    <a class="link {{ if eq $currentPage.Title "Blog" }}active{{end}}" href="/blog">Blog</a>
   </nav>
 </header>

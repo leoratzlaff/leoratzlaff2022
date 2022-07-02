@@ -1,0 +1,79 @@
+[
+    {
+        "title": "Empty Plaza",
+        "image": "empty-plaza.jpg",
+        "year": 2019,
+        "country": "Peru",
+        "city": "Cusco"
+    },
+    {
+        "title": "Morning",
+        "image": "morning.jpg",
+        "year": 2019,
+        "country": "Peru",
+        "city": "Machu Picchu"
+    },
+    {
+        "title": "The View",
+        "image": "the-view.jpg",
+        "year": 2019,
+        "country": "Peru",
+        "city": "Machu Picchu"
+    },
+    {
+        "title": "Maria",
+        "image": "maria.jpg",
+        "year": 2019,
+        "country": "Chile",
+        "city": "Santiago"
+    },
+    {
+        "title": "Ceviche",
+        "image": "ceviche.jpg",
+        "year": 2019,
+        "country": "Chile",
+        "city": "Santiago"
+    },
+    {
+        "title": "MDCCCXCIII",
+        "image": "mdcccxciii.jpg",
+        "year": 2019,
+        "country": "Chile",
+        "city": "Santiago"
+    },
+    {
+        "title": "Stop",
+        "image": "stop.jpg",
+        "year": 2019,
+        "country": "Chile",
+        "city": "San José de Maipo"
+    },
+    {
+        "title": "High",
+        "image": "high.jpg",
+        "year": 2019,
+        "country": "Chile",
+        "city": "Santiago"
+    },
+    {
+        "title": "Flags",
+        "image": "flags.jpg",
+        "year": 2019,
+        "country": "Chile",
+        "city": "Santiago"
+    },
+    {
+        "title": "Angles",
+        "image": "angles.JPG",
+        "year": 2019,
+        "country": "Brazil",
+        "city": "Porto Alegre"
+    },
+    {
+        "title": "Brother",
+        "image": "brother.JPG",
+        "year": 2019,
+        "country": "Brazil",
+        "city": "Dois Irmãos"
+    }
+]

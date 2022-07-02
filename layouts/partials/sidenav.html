@@ -5,8 +5,10 @@
   </nav>
   <i>Projects</i>
   <nav>
+    {{ $currentPage := . }}
     {{ range where .Site.Pages "Params.type" "project" }}
-    <a class="link" href="{{.Permalink}}" aria-label="Read more about {{.Title}}">
+    <a class="link {{ if eq $currentPage.Title .Title }}active{{end}}" href="{{.Permalink}}" aria-label="Read more about {{.Title}}">
+      
       {{ .Title }}
     </a>
     {{ end }}

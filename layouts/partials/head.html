@@ -15,7 +15,7 @@
   <!---->
   {{- end }}
   <link rel="shortcut icon" type="image/x-icon" href="/img/profile.png" />
-  <title>{{.Title}}</title>
+  <title>{{ if .IsHome }}{{ else }}{{ if .Page.Title }}{{ .Page.Title }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
   {{ if isset .Params "cover" }}
   <meta property="og:image" content="{{.Permalink}}{{.Params.cover}}" />
   {{ end }} {{ if isset .Params "description" }}

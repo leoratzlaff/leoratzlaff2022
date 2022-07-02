@@ -1,0 +1,14 @@
+{{define "main"}}
+<h1>Places I've been, people I've met</h1>
+<p>Eventually I have fun taking some shots on film; here are my favorite ones:</p>
+  {{ range .Site.Data.photography }}
+  <figure class="large photography">
+    <img src="{{.Permalink}}/photography/{{.image}}" />
+    <figcaption>
+      {{.city}}, {{.country}}
+      <br />
+      {{.year}}
+    </figcaption>
+  </figure>
+  {{end}}
+{{end}}

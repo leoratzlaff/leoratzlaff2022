@@ -1,17 +1,12 @@
 ---
 title: "Pomo King"
-title_ce: 3
 date: 2020-02-01
 type: "project"
-classes: []
-tags: ["ux", "side-project", "coding"]
 description: "A hands-free pomodoro web app."
-cover: "cover.png"
 ---
 
 I designed and developed Pomo King to practice a few skills like graphic design, UI, UX, and web
-development, and also have a Pomodoro app in the way that I (and a few people I talked to) would
-like to.
+development, and also have a Pomodoro app that would actually work for me.
 
 {{< figure src="pomo-king-1.png" class="large nomargin" >}}
 
@@ -23,7 +18,7 @@ like to.
 
 {{< figure src="pomo-king-5.png" class="large nomargin" >}}
 
-### Key features
+## Key features
 
 Three key features make Pomo King unique and useful:
 
@@ -33,10 +28,10 @@ Three key features make Pomo King unique and useful:
   and rest for 5. When time is up, the bell rings.
 - **Custom sounds**: A slightly different sound rings when you finish focus time and resting time. Once you learn the difference, you don't have to look at the app anymore.
 
-### Web development
+## Web development
 
 For developing Pomo King, I used HTML, CSS, and Javascript. I was able to achieve the maximum score at the four main criteria of Google's Lighthouse—a tool for measuring the quality of web pages—and have as a next step to make it a perfect PWA.
 
-{{< figure src="lighthouse.png" class="darken cs3 ce9" caption="Google's Lighthouse Report" >}}
+{{< figure src="lighthouse.png" class="darken" caption="Google's Lighthouse Report" >}}
 
 The web app is available at [bit.ly/pomoking](http://bit.ly/pomoking).

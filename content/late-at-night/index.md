@@ -2,7 +2,6 @@
 title: "Late at Night"
 date: 2020-01-01
 type: "project"
-tags: ["type-design"]
 ---
 
 Late at Night is a display typeface that my brother

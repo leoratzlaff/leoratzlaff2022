@@ -36,7 +36,7 @@ opportunities, he asked Gabriel to create a service with the concept of Design C
 people could bring their project to get some help and tips from designers. We brainstormed on the
 concept, made some adjustments, and, in February 2019, Design GO was born.
 
-{{< figure src="design-go-logo.png" width="480" caption="Logo designed with SAP’s typography and color palette." >}}
+{{< figure src="design-go-logo.png" width="480" caption="Logo designed with SAP’s typography and color palette." class="small" >}}
 
 We started the service asking people to book a session choosing between five areas: Graphic design,
 UI design, UX design, User Research, and Design Thinking. This division between areas lasted until
@@ -49,7 +49,7 @@ delivered design related training sessions for innovation leaders from other cou
 with amazing people to design their presentations and take them to so many different places in the
 world. We designed t-shirts, bottoms, posters, postcards, and board games. We made a difference.
 
-{{< figure src="we-innovate.jpg" caption="First touchpoint of the visiting experience. Picture by SAP Labs Latin America." >}}
+{{< figure src="we-innovate.jpg" caption="First touchpoint of the visiting experience. Picture by SAP Labs Latin America." class="large" >}}
 
 By the time I&#39;m writing this, one year has gone since we started Design GO. Carla has left SAP,
 Gabriel is leaving soon, and I&#39;m the only one still there. During this last year, we helped more

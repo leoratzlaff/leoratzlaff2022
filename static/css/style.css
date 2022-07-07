@@ -237,6 +237,15 @@ header nav .menu{
 .wrapper main figure.large{
   grid-column: 1/-1;
 }
+.wrapper main figure.small{
+  grid-column: 3/-3;
+}
+@media only screen and (max-width: 79rem) {
+  .wrapper main figure,
+  .wrapper main figure.small{
+    grid-column: 1/-1;
+  }
+}
 .wrapper main figure.nomargin{
   margin: 0;
 }

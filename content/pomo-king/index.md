@@ -34,4 +34,4 @@ For developing Pomo King, I used HTML, CSS, and Javascript. I was able to achiev
 
 {{< figure src="lighthouse.png" class="darken" caption="Google's Lighthouse Report" >}}
 
-The web app is available at [bit.ly/pomoking](http://bit.ly/pomoking).
+The web app is available at [pomoking.com](http://pomoking.com).

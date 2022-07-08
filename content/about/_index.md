@@ -18,7 +18,7 @@ Using my knowledge of design and development, I've been able to create small sid
 
 ## Typography
 
-At some point, I started the realized how much I enjoyed typography, and studying and practicing helped me got better at the base disciplines of Design. Typography is what sharped my eye and changed the way I look at things. Since 2018, My brother and I have created, built, and sold fonts at MyFonts; You’ll find us by the name of [Ratzlaff Type](https://www.myfonts.com/foundry/ratzlaff-type/).
+At some point, I started the realized how much I enjoyed typography, and studying and practicing helped me get better at the base disciplines of Design. Typography is what sharpened my eye and changed the way I look at things. Since 2018, My brother and I have created, built, and sold fonts at MyFonts; You’ll find us by the name of [Ratzlaff Type](https://www.myfonts.com/foundry/ratzlaff-type/).
 
 ## Photography
 

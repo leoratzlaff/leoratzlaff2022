@@ -11,7 +11,7 @@ I joined Dell in January of 2021 to work remotely — maybe temporarily, maybe n
 
 I had no doubts that I should not turn on my camera, but when I saw a coworker eating and realized I didn’t care about that, I got curious about everyone’s opinion, and so I ran a poll on LinkedIn.
 
-I asked, “Do you find it disrespectful or unprofessional to eat during a meeting with your camera on?”, and offered three options: 1. Yes; 2. No, if you’re more a listener; 3. Not at all. I’m not popular on LinkedIn (nor anywhere else) and I got 110 answers. Here is the result:
+I asked, “Do you find it disrespectful or unprofessional to eat during a meeting with your camera on?”, and offered three options: 1. Yes; 2. No, if you’re more a listener; 3. Not at all. I’m not active or popular on LinkedIn, and I got 110 responses. Here is the result:
 
 {{< figure src="chart1.png" class="center" width="400" caption="" alt="Poll’s result: 31% of votes for “Yes”, 43% of votes for “No, if your more a listener”, and 26% of votes for “Not at all”." class="small" >}}
 

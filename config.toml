@@ -8,7 +8,7 @@ blog = "/blog/:year/:title/"
 
 [params]
     description = "Designer, web developer & technology enthusiast."
-    keywords = "Leonardo,Leo,Ratzlaff,Product,Designer,Typography,Pomodoro"
+    keywords = "Leonardo,Leo,Ratzlaff,Designer,Typography,Type,Design,Pomodoro"
     custom_css = ["css/style.css"]
     email = "leoratzlaff@gmail.com"
     social_media = "leoratzlaff"

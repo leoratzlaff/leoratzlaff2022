@@ -14,7 +14,6 @@
   <link rel="stylesheet" type="text/css" href="{{ . | absURL }}?{{ now }};" />
   <!---->
   {{- end }}
-  <link rel="shortcut icon" type="image/x-icon" href="/img/profile.png" />
   <title>{{ if .IsHome }}{{ else }}{{ if .Page.Title }}{{ .Page.Title }} | {{ end }}{{ end }}{{ .Site.Title }}</title>
   {{ if isset .Params "cover" }}
   <meta property="og:image" content="{{.Permalink}}{{.Params.cover}}" />
@@ -24,4 +23,5 @@
   <meta name="description" content="{{.Site.Params.description}}" />
   {{ end }}
   <meta name="keywords" content="{{.Site.Params.keywords}}" />
+  <link rel="icon" type="image/png" href="/icon.png?lr"/>
 </head>

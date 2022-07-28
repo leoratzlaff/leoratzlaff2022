@@ -1,16 +1,19 @@
+{{ $currentPage := . }}
 <aside id="sidenav">
   <nav>
-    <a class="link" href="/about">About</a>
-    <a class="link" href="/blog">Blog</a>
+    <a class="link {{ if eq $currentPage.Title "About" }}active{{end}}" href="/about">About</a>
+    <a class="link {{ if eq $currentPage.Title "Blog" }}active{{end}}" href="/blog">Blog</a>
   </nav>
   <i>Projects</i>
   <nav>
-    {{ $currentPage := . }}
+    {{ $.Scratch.Set "counter" 0}}
     {{ range where .Site.Pages "Params.type" "project" }}
-    <a class="link {{ if eq $currentPage.Title .Title }}active{{end}}" href="{{.Permalink}}" aria-label="Read more about {{.Title}}">
-      
+    {{ $counter := $.Scratch.Get "counter" }}
+    <a class="link {{ if and ($currentPage.IsHome) (eq $counter 0) }}active{{end}} {{ if eq $currentPage.Title .Title }}active{{end}}" href="{{.Permalink}}" aria-label="Read more about {{.Title}}">
       {{ .Title }}
+      {{ if .IsHome }} !!! {{ end }}
     </a>
+    {{ $.Scratch.Add "counter" 1}}
     {{ end }}
   </nav>
 </aside>

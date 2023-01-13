@@ -3,6 +3,7 @@ title: "Pomo King"
 date: 2020-02-01
 type: "project"
 description: "A hands-free pomodoro web app."
+draft: true
 ---
 
 I designed and developed Pomo King to practice a few skills like graphic design, UI, UX, and web

@@ -14,7 +14,7 @@ I was creating basic websites all by myself, and as the clients started to deman
 
 ## Side Projects
 
-Using my knowledge of design and development, I've been able to create small side projects all by myself. [Typa](/work/typa/)'s website and [Pomo King](/work/pomo-king/) are my favorites and I kept them around until today. Like most of the people passionate about side projects, I have a list of ongoing and abandoned, and I'm always looking to collaborate and join people in new and awesome ideas.
+Using my knowledge of design and development, I've been able to create small side projects all by myself. [Pomo King](https://pomoking.com) is my favorite and I keep it around until today. Like most of the people passionate about side projects, I have a list of ongoing and abandoned, and I'm always looking to collaborate and join people in new and awesome ideas.
 
 ## Typography
 

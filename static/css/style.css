@@ -326,7 +326,7 @@ section.blog article span{
 }
 
 .wrapper main.about > *:nth-child(-n+4){
-  grid-column: 2/7;
+  /* grid-column: 2/7; */
 }
 .wrapper figure.about_profile_picture{
   grid-column: 9/-1;
